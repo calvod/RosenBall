@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="SBGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PcE-N4-3wX"/>
+                        <viewControllerLayoutGuide type="bottom" id="pkG-pA-WbE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="amy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XaU-es-Nuv">
+                                <rect key="frame" x="-216" y="38" width="591" height="480"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="diego.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ikM-Mc-Rdz">
+                                <rect key="frame" x="145" y="65" width="34" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="danny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4o0-YD-Gns">
+                                <rect key="frame" x="141" y="67" width="38" height="41"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="jake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zam-lv-XFu">
+                                <rect key="frame" x="141" y="65" width="34" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="blake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oHI-0S-8Zh">
+                                <rect key="frame" x="142" y="65" width="35" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="matt.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="y6l-9L-G1r">
+                                <rect key="frame" x="136" y="430" width="49" height="43"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="nick.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-K1-fqQ">
+                                <rect key="frame" x="138" y="62" width="43" height="52"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="kevin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wi4-kz-QTa">
+                                <rect key="frame" x="-47" y="27" width="211" height="352"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="gcb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OkF-Oy-kSO">
+                                <rect key="frame" x="140" y="62" width="41" height="52"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c99-FS-GEw">
+                                <rect key="frame" x="63" y="268" width="195" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94369771877979336" green="1" blue="0.19667795438712543" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Click here to suck my dick">
+                                    <color key="titleColor" red="0.65588909650000005" green="0.27619470660000001" blue="0.193494423" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I1Z-Sw-4FY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaG-wW-8eA">
+                                <rect key="frame" x="117" y="533" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="blake" destination="oHI-0S-8Zh" id="ILT-mq-kwZ"/>
+                        <outlet property="danny" destination="4o0-YD-Gns" id="VK9-K8-1ny"/>
+                        <outlet property="diego" destination="ikM-Mc-Rdz" id="Y9z-X0-T0M"/>
+                        <outlet property="enemy" destination="OkF-Oy-kSO" id="U63-Cu-Grq"/>
+                        <outlet property="jake" destination="zam-lv-XFu" id="JOj-Yh-fzN"/>
+                        <outlet property="kevin" destination="wi4-kz-QTa" id="9wt-yR-Lp9"/>
+                        <outlet property="nick" destination="DMA-K1-fqQ" id="Nrq-xY-1vN"/>
+                        <outlet property="player" destination="y6l-9L-G1r" id="mqU-vC-Zda"/>
+                        <outlet property="seconds" destination="KaG-wW-8eA" id="cUr-fr-CtG"/>
+                        <outlet property="startbutton" destination="c99-FS-GEw" id="IyZ-BP-MVb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="amy.jpg" width="591" height="480"/>
+        <image name="blake.jpg" width="35" height="46"/>
+        <image name="danny.jpg" width="38" height="41"/>
+        <image name="diego.jpg" width="34" height="44"/>
+        <image name="gcb.jpg" width="41" height="61"/>
+        <image name="jake.jpg" width="34" height="46"/>
+        <image name="kevin.jpg" width="209" height="382"/>
+        <image name="matt.jpg" width="54" height="47"/>
+        <image name="nick.jpg" width="43" height="52"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
