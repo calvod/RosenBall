@@ -27,9 +27,10 @@
     posjake = CGPointMake(4.5, 5.0);
     posblake = CGPointMake(3.0, 3.5);
     posdiego = CGPointMake(1.5, 2.0);
-    poskevin = CGPointMake(7.0, 7.5);
+    poskevin = CGPointMake(4.0, 4.5);
     [kevin setHidden:YES];
     bossModeAlert = NO;
+    
     
 }
 
@@ -79,7 +80,7 @@
     if (enemy.center.y > 480 || enemy.center.y < 16)
         posgiancarlo.y = -posgiancarlo.y;
     }
-    if (Number >= 15 && !bossMode) {
+    if (Number >= 10 && !bossMode) {
         [nick setHidden:NO];
         //posgiancarlo = CGPointMake(12.7, 13.2);
         nick.center = CGPointMake(nick.center.x+posnick.x, nick.center.y+posnick.y);
@@ -89,7 +90,7 @@
             posnick.y = -posnick.y;
     }
     
-    if (Number >= 30 && !bossMode) {
+    if (Number >= 20 && !bossMode) {
         [danny setHidden:NO];
         //posgiancarlo = CGPointMake(11.9, 12.4);
         danny.center = CGPointMake(danny.center.x+posdanny.x, danny.center.y+posdanny.y);
@@ -99,7 +100,7 @@
             posdanny.y = -posdanny.y;
     }
     
-    if (Number >= 45 && !bossMode) {
+    if (Number >= 30 && !bossMode) {
         [jake setHidden:NO];
         //posgiancarlo = CGPointMake(11.1, 11.6);
         jake.center = CGPointMake(jake.center.x+posjake.x, jake.center.y+posjake.y);
@@ -109,7 +110,7 @@
             posjake.y = -posjake.y;
     }
     
-    if (Number >= 60 && !bossMode) {
+    if (Number >= 40 && !bossMode) {
         [blake setHidden:NO];
         //posgiancarlo = CGPointMake(10.3, 10.8);
         blake.center = CGPointMake(blake.center.x+posblake.x, blake.center.y+posblake.y);
@@ -140,9 +141,9 @@
         [nick setHidden:YES];
         [bossModeAlert setHidden:NO];
         kevin.center = CGPointMake(kevin.center.x+poskevin.x, kevin.center.y+poskevin.y);
-        if (kevin.center.x > 200 || kevin.center.x < 90)
+        if (kevin.center.x > 200 || kevin.center.x < 18)
             poskevin.x = -poskevin.x;
-        if (kevin.center.y > 300 || kevin.center.y < 90)
+        if (kevin.center.y > 400 || kevin.center.y < 18)
             poskevin.y = -poskevin.y;
         
         
@@ -154,7 +155,7 @@
     {
         [randomMain invalidate];
         [timer invalidate];             //this one is for the score timer
-        [startbutton setHidden:NO];
+       
         
         
         CGRect frame = [player frame];
@@ -203,23 +204,26 @@
         [kevin setFrame:frame8];
         [kevin setHidden:YES];
         
+        
+        
         if (Number < 10) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"God Fucking Shit!" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Let's go to Tomuken" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"wut..." message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Let's go to Tomuken" otherButtonTitles:nil];
         [alert show];
         //[alert release];
         } else if (Number < 25) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"no no no no NOOO!" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"San Francisco is the best town ever" otherButtonTitles:nil];
             [alert show];
         } else if (Number < 40) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Fuck this" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Let's play Feef" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Pretty good that time" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Let's play Feef" otherButtonTitles:nil];
         [alert show];
         } else if (Number < 55) {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Jerusalem garden worthy" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Click here to finger a girl on the dance floor" otherButtonTitles:nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Meh" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Click here to go home alone" otherButtonTitles:nil];
             [alert show];
         } else if (Number < 65) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"I'm takin you to Sava's for that one" message:[NSString stringWithFormat:@"Your Score: %i", Number] delegate:nil cancelButtonTitle:@"Click here to score" otherButtonTitles:nil];
             [alert show];
         }
+        [startbutton setHidden:NO];
     }
 }
 

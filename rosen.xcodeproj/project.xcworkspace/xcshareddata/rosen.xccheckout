@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C7BC2759-D220-4637-BAE1-CF3208FE2585</string>
+	<string>5DCB4EB8-D6AE-4C37-AE1F-8DF7F6C3A5F1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>rosen</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>433C6C45-A7F9-41A1-9EC2-5A1CCCE85BDF</key>
-		<string>https://github.com/calvod/DannysLamp.git</string>
+		<key>47255AA0-E2D2-4A90-B36D-5907D1448ACE</key>
+		<string>ssh://github.com/calvod/DannysLamp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>rosen.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>433C6C45-A7F9-41A1-9EC2-5A1CCCE85BDF</key>
+		<key>47255AA0-E2D2-4A90-B36D-5907D1448ACE</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/calvod/DannysLamp.git</string>
+	<string>ssh://github.com/calvod/DannysLamp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>433C6C45-A7F9-41A1-9EC2-5A1CCCE85BDF</string>
+	<string>47255AA0-E2D2-4A90-B36D-5907D1448ACE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>433C6C45-A7F9-41A1-9EC2-5A1CCCE85BDF</string>
+			<string>47255AA0-E2D2-4A90-B36D-5907D1448ACE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RosenBall</string>
 		</dict>

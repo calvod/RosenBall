@@ -37,6 +37,7 @@
 		F1D8D629185A510F002EBD13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D8D628185A510F002EBD13 /* AVFoundation.framework */; };
 		F1D8D62B185A53A8002EBD13 /* dreidel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D8D62A185A53A8002EBD13 /* dreidel.jpg */; };
 		F1D8D62D185A57AB002EBD13 /* h.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F1D8D62C185A57AB002EBD13 /* h.m4a */; };
+		F1E89E6C1887C691005565BB /* umich.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E89E6B1887C691005565BB /* umich.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		F1D8D628185A510F002EBD13 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F1D8D62A185A53A8002EBD13 /* dreidel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreidel.jpg; sourceTree = "<group>"; };
 		F1D8D62C185A57AB002EBD13 /* h.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = h.m4a; sourceTree = "<group>"; };
+		F1E89E6B1887C691005565BB /* umich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umich.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		F1A17A921859691300AD7C9A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1E89E6B1887C691005565BB /* umich.png */,
 				F1BF7AA7185A790C00C4C420 /* kevin.jpg */,
 				F1BF7AA8185A790C00C4C420 /* diego.jpg */,
 				F1BF7AA9185A790C00C4C420 /* blake.jpg */,
@@ -285,6 +288,7 @@
 				F1A17AC218596B8400AD7C9A /* matt.jpg in Resources */,
 				F1BF7AA6185A70B700C4C420 /* danny.jpg in Resources */,
 				F1BF7AA4185A6E8F00C4C420 /* nick.jpg in Resources */,
+				F1E89E6C1887C691005565BB /* umich.png in Resources */,
 				F1BF7AAE185A790C00C4C420 /* jake.jpg in Resources */,
 				F1D8D62B185A53A8002EBD13 /* dreidel.jpg in Resources */,
 				F1BF7AAD185A790C00C4C420 /* blake.jpg in Resources */,
